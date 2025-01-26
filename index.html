@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("./travel-concept-ready-summer-tourism-background-top-view-website-template-illustration-128659794.webp");
+    
+}
+
+.navbar {
+    background-color: #333;
+    overflow:visible;
+    justify-content:center;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: rgb(217, 209, 209);
+    display: block;
+    padding: 14px 20px;
+}
+
+.nav-item a:hover {
+    background-color: #858383;
+    color: black;
+    border-radius: 20%;
+}
+#search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+#search-btn,
+#clear-btn {
+    background-color:rgb(136, 131, 131);
+    border: none;
+    cursor: pointer;
+    padding: 0 10px;
+    color: white;
+    padding:5px 4px
+}
+
+#search-btn:hover,
+#clear-btn:hover {
+    color: black;
+}
+
+.search-icon,
+.clear-icon {
+    font-size: 1.2em;
+}
+nav h1{
+    color: rgb(200, 193, 193);
+}
+.titleParagraph {
+    text-align: left ;
+    font-size: 70px;
+    width: 30%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 30px;
+    color: rgb(84, 85, 87);
+}
+.my{
+    padding-left:10px;
+    color: rgb(84, 85, 87);
+    width: 30%;
+}
+.booknow{
+    color: white;
+    background-color:rgb(84, 85, 87);
+    border-radius: 50px;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar"><h1 id="title">TravelBoolem</h1>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="./index.html">Home</a></li>
+            <li class="nav-item"><a href="./aboutus.html">About</a></li>
+            <li class="nav-item"><a href="#services">Services</a></li>
+            <li class="nav-item"><a href="./contactus.html">Contact</a></li>
+
+            <li class="nav-item search-container">
+                <input type="text" placeholder="Search..." id="search-input">
+                <button id="search-btn"><i class="search-icon">Search</i></button>
+                <button id="clear-btn"><i class="clear-icon">Clear</i></button>
+            </li>
+    </nav>
+    <div class="container">
+        <h1 class="titleParagraph">Explon Dream Destantion</h1>
+        <p class="my">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse iure quasi voluptatum aliquam veritatis iste similique fugit, neque porro et quam quaerat, ab vel veniam non excepturi tenetur incidunt error?</p>
+    </div>
+    <button class="booknow">BOOK NOW</button>
+</body>
+</html>
